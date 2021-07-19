@@ -1,5 +1,5 @@
 class Staff::LoginForm
-  include Active::Model
+  include ActiveModel::Model
 
   attr_accessor :email, :password
 end
