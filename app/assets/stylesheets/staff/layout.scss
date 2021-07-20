@@ -21,13 +21,14 @@ header {
   background-color: $dark_cyan;
   color: $very_light_gray;
   a.logo-mark {
-    float: $moderate;
-    background-color: $dark_cyan;
+    float: none;
+    text-decoration: none;
     font-weight: bold;
   }
   a {
     float: right;
     color: $very_light_gray;
+    margin-left: $wide;
   }
 }
 
