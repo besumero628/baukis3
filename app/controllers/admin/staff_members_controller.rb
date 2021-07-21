@@ -1,4 +1,6 @@
 class Admin::StaffMembersController < Admin::Base
+
+
   def index
     @staff_members = StaffMember.order(:family_name_kana, :given_name_kana)
   end
@@ -45,6 +47,7 @@ class Admin::StaffMembersController < Admin::Base
   end
 
   private
+
   def staff_member_params
     params.require(:staff_member).permit(
       :email, :password, :family_name, :given_name,
