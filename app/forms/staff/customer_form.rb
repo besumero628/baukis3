@@ -20,7 +20,7 @@ class Staff::CustomerForm
   end
 
   def save
-    customer.save!
+    customer.save
   end
 
   private

@@ -19,7 +19,7 @@ feature "職員による顧客管理" do
     fill_in "form_customer_family_name", with: "試験"
     fill_in "form_customer_given_name", with: "花子"
     fill_in "form_customer_family_name_kana", with: "シケン"
-    fill_in "form_customer_given_name", with: "ハナコ"
+    fill_in "form_customer_given_name_kana", with: "ハナコ"
     fill_in "生年月日", with: "1970-01-01"
     choose "女性"
     within("fieldset#home-address-fields") do
