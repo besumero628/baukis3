@@ -1,24 +1,15 @@
-# README
+# Baukis3 - 顧客管理システム
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 説明
+Ruby on Rails6 実践ガイド (出版：インプレス　著者：黒田 努)
+上記を題材に学習を進め、構築した顧客管理システムです。
 
-Things you may want to cover:
+## 推奨されるシステム環境
+* Ruby 2.6.4
+* Rails 6.0.4
+* PostgreSQL 11.5
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## user sample
+* admin: [email] hanako@example.com, [password] foobar
+* staff: admin→職員管理 より表示されるstaff一覧 or 新規作成
+* customer staff→顧客管理 より表示されるcustomer一覧 or 新規作成
