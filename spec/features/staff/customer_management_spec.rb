@@ -81,7 +81,6 @@ feature "職員による顧客管理" do
     expect(customer.email).to eq("test@example.jp")
     expect(customer.home_address.postal_code).to eq("9999999")
     expect(customer.work_address.company_name).to eq("テスト")
-
   end
 
 end
